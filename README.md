@@ -3,9 +3,9 @@ mailboxninja lora based arduino
 
 **TODO**
 
-[] Deep sleep on Sender
-[] WiFi on Receiver 
-[] Fetch https on Receiver 
+[ ] Deep sleep on Sender
+[ ] WiFi on Receiver 
+[ ] Fetch https on Receiver 
 
 
 **Parts List**
