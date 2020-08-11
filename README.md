@@ -1,11 +1,11 @@
 # mailboxninja-lora
-mailboxninja lora based arduino
+mailboxninja lora based arduino version
 
 **TODO**
 
-* [ ] Deep sleep on Sender
-* [ ] WiFi on Receiver 
-* [ ] Fetch https on Receiver 
+* [ ] Eanble Deep sleep on Sender
+* [ ] Enable WiFi on Receiver 
+* [ ] Enable HTTPS GET request on Receiver 
 
 
 **Parts List**
@@ -20,7 +20,6 @@ mailboxninja lora based arduino
 * 3.3V > 3.3V
 * GND > GND
 * RST > RST
-
 * NSS > D8
 * MOSI > D7
 * MOSO > D6
@@ -30,7 +29,6 @@ mailboxninja lora based arduino
 * 3.3V > 3.3V
 * GND > GND
 * RST > RST
-
 * NSS > D8
 * MOSI > D7
 * MOSO > D6
