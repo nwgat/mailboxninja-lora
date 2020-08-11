@@ -1,5 +1,5 @@
 # mailboxninja-lora
-mailboxninja lora based arduino version
+Arduino based LoRa Version
 
 **TODO**
 
