@@ -3,7 +3,7 @@ mailboxninja lora based arduino version
 
 **TODO**
 
-* [ ] Eanble Deep sleep on Sender
+* [ ] Enable Deep Sleep on Sender
 * [ ] Enable WiFi on Receiver 
 * [ ] Enable HTTPS GET request on Receiver 
 
