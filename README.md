@@ -6,7 +6,7 @@ mailboxninja lora based arduino version
 * [ ] Enable Deep Sleep on Sender
 * [ ] Enable WiFi on Receiver 
 * [ ] Enable HTTPS GET request on Receiver 
-* [ ] Enable Telegram Bot
+* [ ] Enable Telegram Bot on Receiver
 
 
 **Parts List**
