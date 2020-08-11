@@ -1,6 +1,13 @@
 # mailboxninja-lora
 mailboxninja lora based arduino
 
+**TODO**
+
+[] Deep sleep on Sender
+[] WiFi on Receiver 
+[] Fetch https on Receiver 
+
+
 **Parts List**
 
 * [x] Wemos D1 Mini 
