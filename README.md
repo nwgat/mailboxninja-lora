@@ -19,7 +19,7 @@ Arduino based LoRa Version
 
 Receiver (Wemos D1 Mini)
 * 3.3V > 3.3V
-* GND > GND
+* GND > GND (closest to 3.3V)
 * RST > RST
 * NSS > D8
 * MOSI > D7
@@ -27,8 +27,8 @@ Receiver (Wemos D1 Mini)
 * SCK > D5
 
 Sender (LILYGO T-OI 16340 Rechargeable)
-* 3.3V > 3.3V
-* GND > GND
+* 3.3V > 3.3V 
+* GND > GND (closest to 3.3V)
 * RST > RST
 * NSS > D8
 * MOSI > D7
