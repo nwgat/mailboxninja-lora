@@ -3,12 +3,12 @@ Arduino based LoRa Version
 
 | Name | Description |
 |-|-|
-| LoRaSenderSleep | sender, deep sleep
-| LoRaReceiverHook | http webhook  |
-| LoRaReceiverHookSecure | https webhook  |
+| NinjaSenderSleep | sender, deep sleep
+| NinjaReceiverHook | http webhook  |
+| NinjaReceiverHookSecure | https webhook  |
 |-|-|
-| LoRaReceiver  | test code |
 | LoRaSender | test sender code looped |
+| LoRaReceiver  | test code |
 
 **TODO**
 
