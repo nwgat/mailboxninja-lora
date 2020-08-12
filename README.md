@@ -5,8 +5,8 @@ Arduino based LoRa Version
 
 * [ ] Enable Deep Sleep on Sender
 * [x] Enable WiFi on Receiver 
-* [x] Enable HTTPS GET request on Receiver 
-
+* [x] Enable HTTP GET request on Receiver 
+* [ ] Enable HTTPS GET request on Receiver 
 
 **Parts List**
 
