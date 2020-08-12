@@ -13,6 +13,10 @@ Arduino based LoRa Version
 * [x] Wemos D1 Mini 
 * [x] LILYGO TTGO 16340
 * [x] 2x Pre-Soldered Lora RA-02 Boards
+* [x] Reed Door Sensor
+
+**Sensor**
+Solder the reed door sensor leads to RST and GND on the TTGO
 
 **Pinout**
 
