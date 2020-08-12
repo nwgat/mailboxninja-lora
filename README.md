@@ -4,9 +4,8 @@ Arduino based LoRa Version
 **TODO**
 
 * [ ] Enable Deep Sleep on Sender
-* [ ] Enable WiFi on Receiver 
-* [ ] Enable HTTPS GET request on Receiver 
-* [ ] Enable Telegram Bot on Receiver
+* [x]Enable WiFi on Receiver 
+* [x] Enable HTTPS GET request on Receiver 
 
 
 **Parts List**
