@@ -1,3 +1,6 @@
+# https://nwgat.ninja
+# https://github.com/nwgat/mailboxninja-lora
+
 #include <SPI.h>
 #include <LoRa.h>
 
