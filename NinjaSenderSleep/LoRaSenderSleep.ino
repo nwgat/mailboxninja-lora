@@ -11,6 +11,8 @@ void setup() {
   // #define rst 16
 
   LoRa.setPins(ss, rst);
+  LoRa.setSyncWord(0xF3);
+  
   Serial.println("LoRa: OK");
 
   if (!LoRa.begin(433E6)) {
