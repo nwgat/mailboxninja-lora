@@ -11,6 +11,7 @@ void setup() {
   // #define rst 16
 
   LoRa.setPins(ss, rst);
+  LoRa.setTxPower(20);
   LoRa.setSyncWord(0xF3);
   
   Serial.println("LoRa: OK");
