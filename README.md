@@ -16,6 +16,7 @@ Arduino based LoRa Version
 * [x] Enable WiFi on Receiver 
 * [x] Enable HTTP GET request on Receiver 
 * [ ] Enable HTTPS GET request on Receiver 
+* [ ] Fix phantom packets
 
 **Parts List**
 
@@ -25,7 +26,8 @@ Arduino based LoRa Version
 * [x] Reed Door Sensor
 
 **Sensor**
-Solder the reed door sensor leads to RST and GND on the TTGO
+
+* Solder the reed door sensor leads to RST and GND on the TTGO
 
 **Pinout**
 
