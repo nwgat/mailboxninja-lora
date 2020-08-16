@@ -16,7 +16,8 @@ Arduino based LoRa Version
 * [x] Enable WiFi on Receiver 
 * [x] Enable HTTP GET request on Receiver 
 * [ ] Enable HTTPS GET request on Receiver 
-* [ ] Fix phantom packets
+* [ ] Fix Phantom Packets
+* [ ] Fix interference from other lora near by
 
 **Parts List**
 
