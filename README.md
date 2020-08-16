@@ -1,4 +1,4 @@
-# mailboxninja-lora
+# MailboxNinja-LoRa
 Arduino based LoRa Version
 
 | Name | Description |
