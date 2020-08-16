@@ -1,14 +1,14 @@
 # MailboxNinja-LoRa
 Arduino based LoRa Version
 
-| Name | Description |
-|-|-|
-| NinjaSenderSleep | sender, deep sleep
-| NinjaReceiverHook | http webhook  |
-| NinjaReceiverHookSecure | https webhook  |
-|-|-|
-| LoRaSender | test sender code looped |
-| LoRaReceiver  | test code |
+| Name | Description | Status |
+|-|-|-|
+| NinjaSenderSleep | sender, deep sleep | Done |
+| NinjaReceiverHook | http webhook  | Work In Progress|
+| NinjaReceiverHookSecure | https webhook  | Work in Progress|
+|-|-|-|
+| LoRaSender | test sender code looped | | 
+| LoRaReceiver  | test code | |
 
 **TODO**
 
