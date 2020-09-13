@@ -21,10 +21,11 @@ Arduino based LoRa Version
 
 **Parts List**
 
-* [x] Wemos D1 Mini (NinjaReceiverHook)
-* [x] LILYGO TTGO 16340 (NinjaSenderSleep)
-* [x] 2x Wemos D1 Lora Shields
-* [x] Reed Door Sensor
+* [x] [Wemos D1 Mini (NinjaReceiverHook)](https://www.aliexpress.com/item/32529101036.html) 
+* [x] [LILYGO TTGO 16340 (NinjaSenderSleep)](https://www.aliexpress.com/item/4000429110448.html) 
+* [x] [2x Wemos D1 Lora Shields](https://www.openhardware.io/view/394/Minimalist-LoRa-Ra-01-Shield-for-WeMos-D1-Mini)
+* [x] [2x RA-01 + ANT](https://www.aliexpress.com/item/4000086980747.html)
+* [x] [Reed Door Sensor](https://www.aliexpress.com/item/10000007677307.html?_mMdt3V9)
 
 **Reed Door Sensor**
 
