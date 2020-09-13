@@ -1,3 +1,6 @@
+// https://nwgat.ninja
+// https://github.com/nwgat/mailboxninja-lora
+
 #include <SPI.h>
 #include <LoRa.h>
 
@@ -11,7 +14,6 @@ void setup() {
   // #define rst 16
 
   LoRa.setPins(ss, rst);
-  LoRa.setTxPower(20);
   LoRa.setSyncWord(0xF3);
   
   Serial.println("LoRa: OK");
@@ -24,7 +26,7 @@ void setup() {
 
   // send packet
   LoRa.beginPacket();
-  LoRa.print("mail");
+  LoRa.print("c");
   LoRa.endPacket();
 
   delay(30000);
