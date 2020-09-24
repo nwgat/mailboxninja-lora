@@ -3,10 +3,13 @@
 
 #include <SPI.h>
 #include <LoRa.h>
+#include <ESP8266WiFi.h>
 
 void setup() {
   Serial.begin(115200);
-  // while (!Serial);
+  // while (!Serial);  
+  pinMode(LED_BUILTIN, OUTPUT);
+  digitalWrite(LED_BUILTIN, HIGH);
 
   // LoRa
   #define ss 15
@@ -29,9 +32,9 @@ void setup() {
   LoRa.print("c");
   LoRa.endPacket();
 
-  delay(30000);
-  Serial.println("Going deep sleeping...");
-  ESP.deepSleep(0); 
+  // deep sleep
+  Serial.println("Going deep sleeping... in 15 sec");
+  ESP.deepSleep(15e6); 
 }
 
 void loop() {
