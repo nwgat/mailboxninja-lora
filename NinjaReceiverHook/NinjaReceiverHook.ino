@@ -6,9 +6,11 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WiFiMulti.h>
 #include <ESP8266HTTPClient.h>
+String inData;
 
 ESP8266WiFiMulti WiFiMulti;
 void setup() {
+
   // WiFi
   Serial.begin(115200);
   while (!Serial);
@@ -25,7 +27,7 @@ void setup() {
   }
 
   WiFi.mode(WIFI_STA);
-  WiFiMulti.addAP("your24network", "yourwifipassword");
+  WiFiMulti.addAP("wifi_network", "wifi_password");
 
   // LoRa
   #define ss 15
@@ -33,7 +35,6 @@ void setup() {
   #define rst 16
   
   LoRa.setPins(ss, rst);
-  LoRa.setSyncWord(0xF3);
   
   Serial.println("LoRa: OK");
 
@@ -52,18 +53,19 @@ void loop() {
   if (packetSize) {
 
      // read packet
-    while (LoRa.available()) {
-      char incoming = (char)LoRa.read();
-      if (incoming == 'c')
-      {
-       // hook
-       HTTPClient http;
-       http.begin("http://webhook.com/url");
-       http.GET();
-       Serial.print("webhook: OK | "); 
-      }
-      else
-      {
+  while(LoRa.available() > 0 ){
+    String str = LoRa.readString();
+    if(str.indexOf("abc") > -1){
+     // hook
+     HTTPClient http;
+     http.begin("http://example.com/webhook");
+     http.GET();
+     Serial.print("webhook: OK | "); 
+     Serial.println("identified");} 
+    else{
+      Serial.println("unknown");
+
+        }
 
       }
     // read packet
@@ -72,9 +74,8 @@ void loop() {
     }
 
     // print RSSI of packet
-    Serial.print("RSSI: ");
+    Serial.print(" RSSI: ");
     Serial.println(LoRa.packetRssi());
   }
   }
  }
-}
