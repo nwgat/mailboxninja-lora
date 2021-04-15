@@ -4,8 +4,10 @@ Arduino based LoRa Version
 | Name | Description | Status |
 |-|-|-|
 | NinjaSenderSleep | sender, deep sleep | Done |
+| NinjaSenderSleepATmega | sender, deep sleep | Done |
 | NinjaReceiverHook | http webhook  | Done|
 | NinjaReceiverHookSecure | https webhook  | Work in Progress|
+| NinjaReceiverHookMQTT | mqtt  | Work in Progress|
 |-|-|-|
 | LoRaSender | test sender code looped | | 
 | LoRaReceiver  | test code | |
