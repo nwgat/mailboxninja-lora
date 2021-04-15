@@ -1,16 +1,16 @@
 # MailboxNinja-LoRa
 Arduino based LoRa Version
 
-| Name | Description | Status |
-|-|-|-|
-| NinjaSenderSleep | sender, deep sleep | Done |
-| NinjaSenderSleepATmega | sender, deep sleep | Done |
-| NinjaReceiverHook | http webhook  | Done|
-| NinjaReceiverHookSecure | https webhook  | Work in Progress|
-| NinjaReceiverHookMQTT | mqtt  | Work in Progress|
-|-|-|-|
-| LoRaSender | test sender code looped | | 
-| LoRaReceiver  | test code | |
+| Name | Description | board | Status |
+|-|-|-|-
+| NinjaSenderSleep | sender, deep sleep | ESP8266| Done |
+| NinjaSenderSleepATmega | sender, deep sleep | ATMega328p | Done |
+| NinjaReceiverHook | http webhook  | ESP8266 | Done |
+| NinjaReceiverHookSecure | https webhook | ESP8266 | Work in Progress |
+| NinjaReceiverHookMQTT | mqtt  | ESP8266 | Work in Progress |
+|-|-|-|-|
+| LoRaSender | test sender code looped | | |
+| LoRaReceiver  | test code | | |
 
 **TODO**
 
