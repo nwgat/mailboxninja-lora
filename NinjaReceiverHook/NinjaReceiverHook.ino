@@ -60,6 +60,7 @@ void loop() {
      HTTPClient http;
      http.begin("http://example.com/webhook");
      http.GET();
+     inData = "abc"; // Clear recieved buffer
      Serial.print("webhook: OK | "); 
      Serial.println("identified");} 
     else{
